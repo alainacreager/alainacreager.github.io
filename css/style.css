@@ -14,5 +14,6 @@ body{
 }
 
 a{
-    color:cornflowerblue
+    color:black;
+    font-weight: bold;
 }
