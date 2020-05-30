@@ -1,11 +1,16 @@
-h1, h2, p {
-    color: black;
+h1, h2 {
+    font-family: 'Muli', sans-serif;
 }
 
+p{
+   font-family: 'Open Sans', sans-serif; 
+}
 body{
     background-color: white;
     align-content: center;
     max-width: 700px;
+    margin: 40px;
+    color: black;
 }
 
 a{
