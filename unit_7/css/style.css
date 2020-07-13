@@ -1,35 +1,34 @@
+* {margin:0; padding:0; box-sizing: border-box;}
+
 body {
     align-content: center;
     color: black;
     font-family: 'Open Sans', sans-serif; 
-    margin: 0;
-}
-
-nav {
-    background-color: #E8C66A;
-    border: 1px black solid;
-    padding: 2%;
-    width: 96%;
-}
-
-
-#navtitle {
-    background-color: #FFC675;
-    width: 50%;
-    float: left;
-}
-
-#navmenu{
-    background-color: #E89C6C;
-    width: 50%;
-    float: right;
-    align-content: right;
 }
 
 header {
-    padding: 20px;
-    background-color: #FFED74;
-    border: 1px black solid;
+    padding: 2%;
+}
+
+nav a{
+    text-align: right;
+    font-size: 1.2em;
+    display: inline-block;
+    padding: 1em;
+    color: black;
+    text-decoration: none;
+    letter-spacing: .2em;
+    float: right;
+}
+
+nav a:hover{
+    color: grey;
+    font-weight: 500;
+    letter-spacing: .2em;
+}
+
+#hero {
+    padding: 80px;
     clear: both;
     text-align: center;
 }
@@ -39,29 +38,45 @@ hr {
     align-content: center;
     margin: 4em auto;
     border-top: 1px solid grey;
-    
 }
 
-.twocolumn {
-    background-color: #FFE2B8;
-    margin: 2%;
-    padding: 0 0 2% 0;
-    width: 46%;
-    height: 300px;
+#featuredProject {
+    margin: 2% 8%;
+    width: 84%;
+}
+
+#featProjectPhoto {
+    width: 48%;
     float: left;
 }
 
-.left {
-    background-color: #FFC675;
+#featProjectInfo {
+    padding: 220px 40px;
+    width: 52%;
+    float: right;
+}
+
+#projectrow {
+    padding: 2% 8%;
+    line-height: 2em;
+}
+
+.columnone{
+    float: left;
     width: 50%;
-    float: left;
+    padding-right: 1%;
 }
 
-.right {
-    background-color: #E89C6C;
-    padding: 2%;
-    width: 46%;
-    float:right;
+.columntwo{
+    float: right;
+    width: 50%;
+    padding-left: 1%;
+}
+
+.projectphoto{
+    height: 300px;
+    width: 100%;
+    padding-bottom: 4%;
 }
 
 img{
@@ -71,7 +86,7 @@ img{
 }
 
 
-.clearfix:after {
+.clearfix:after{
     visibility: hidden;
     display: block;
     font-size: 0;
@@ -107,11 +122,37 @@ h4{
     font-size: 1em;
 }
 
+a{
+    color: black;
+    text-underline-position: under;
+}
+
+a:hover{
+    color: grey;
+}
+
 
 footer{
-    background-color: #FF957E;
-    border: 1px black solid;
-    padding: 20px;
+    padding: 100px 0px 20px 0px;
     text-align: center;
     clear: both;
+}
+
+#social {
+    display: inline-block;
+    text-align: center;
+}
+
+#social a{
+    float:left;
+    padding: 20px 5px;
+}
+
+#social img{
+    max-height: 32px;
+    max-height: 32px;
+}
+
+footer h3{
+    font-size: 14px;
 }
