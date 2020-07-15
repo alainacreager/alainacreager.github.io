@@ -1,0 +1,158 @@
+* {margin:0; padding:0; box-sizing: border-box;}
+
+body {
+    align-content: center;
+    color: black;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+header {
+    padding: 2%;
+}
+
+nav a{
+    text-align: right;
+    font-size: 1.2em;
+    display: inline-block;
+    padding: 1em;
+    color: black;
+    text-decoration: none;
+    letter-spacing: .2em;
+    float: right;
+}
+
+nav a:hover{
+    color: grey;
+    font-weight: 500;
+    letter-spacing: .2em;
+}
+
+#hero {
+    padding: 80px;
+    clear: both;
+    text-align: center;
+}
+
+hr {
+    width: 15em;
+    align-content: center;
+    margin: 4em auto;
+    border-top: 1px solid grey;
+}
+
+#featuredProject {
+    margin: 2% 8%;
+    width: 84%;
+}
+
+#featProjectPhoto {
+    width: 48%;
+    float: left;
+}
+
+#featProjectInfo {
+    padding: 220px 40px;
+    width: 52%;
+    float: right;
+}
+
+#projectrow {
+    padding: 2% 8%;
+    line-height: 2em;
+}
+
+.columnone{
+    float: left;
+    width: 50%;
+    padding-right: 1%;
+}
+
+.columntwo{
+    float: right;
+    width: 50%;
+    padding-left: 1%;
+}
+
+.projectphoto{
+    height: 300px;
+    width: 100%;
+    padding-bottom: 4%;
+}
+
+img{
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+
+.clearfix:after{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+/*Text styling*/
+h1{
+    font-family: 'Futura', sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+}
+
+h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+    font-size: 1.5em;
+}
+
+h3{
+    font-family: 'futura', sans-serif;
+    font-weight: lighter;
+    letter-spacing: .2em;
+    font-size: 1.5em;
+}
+
+h4{
+    font-family: 'futura', sans-serif;
+    font-weight: lighter;
+    letter-spacing: .2em;
+    font-size: 1em;
+}
+
+a{
+    color: black;
+    text-underline-position: under;
+}
+
+a:hover{
+    color: grey;
+}
+
+
+footer{
+    padding: 100px 0px 20px 0px;
+    text-align: center;
+    clear: both;
+}
+
+#social {
+    display: inline-block;
+    text-align: center;
+}
+
+#social a{
+    float:left;
+    padding: 20px 5px;
+}
+
+#social img{
+    max-height: 32px;
+    max-height: 32px;
+}
+
+footer h3{
+    font-size: 14px;
+}
