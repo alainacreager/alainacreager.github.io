@@ -81,13 +81,14 @@ hr {
 .projectphoto{
     height: 20em;
     width: 100%;
+    object-fit: cover;
     padding-bottom: 4%;
 }
 
 img{
     max-height: 100%;
     max-width: 100%;
-    display: block;
+    object-fit: cover;
 }
 
 
@@ -98,6 +99,27 @@ img{
     content: " ";
     clear: both;
     height: 0;
+}
+
+footer{
+    padding: 3em 0 1.5em 0;
+    text-align: center;
+    clear: both;
+}
+
+#social {
+    display: inline-block;
+    text-align: center;
+}
+
+#social a{
+    float:left;
+    padding: 1.5em .4em;
+}
+
+#social img{
+    max-height: 22m;
+    max-height: 2em;
 }
 
 /*Text styling*/
@@ -136,28 +158,6 @@ a:hover{
     color: grey;
 }
 
-
-footer{
-    padding: 5em 0 1.5em 0;
-    text-align: center;
-    clear: both;
-}
-
-#social {
-    display: inline-block;
-    text-align: center;
-}
-
-#social a{
-    float:left;
-    padding: 1.5em .4em;
-}
-
-#social img{
-    max-height: 22m;
-    max-height: 2em;
-}
-
 footer h2{
     font-size: 1em;
 }
@@ -183,6 +183,8 @@ footer h3{
     
     .projectphoto{
         padding-bottom: 2%;
+        max-width: 100%;
+        max-height: 100%;
     }
     
     .columnone, .columntwo { 
