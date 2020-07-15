@@ -27,8 +27,12 @@ nav a:hover{
     letter-spacing: .2em;
 }
 
+#navicon{
+    display:none;
+}
+
 #hero {
-    padding: 80px;
+    padding: 8% 2%;
     clear: both;
     text-align: center;
 }
@@ -41,18 +45,19 @@ hr {
 }
 
 #featuredProject {
-    margin: 2% 8%;
+    margin: 2% 8% 0;
     width: 84%;
 }
 
 #featProjectPhoto {
-    width: 48%;
+    width: 50%;
     float: left;
+    padding-right: 1%;
 }
 
 #featProjectInfo {
-    padding: 220px 40px;
-    width: 52%;
+    padding: 10% 2%;
+    width: 50%;
     float: right;
 }
 
@@ -99,7 +104,7 @@ img{
 h1{
     font-family: 'Futura', sans-serif;
     font-weight: bold;
-    font-size: 6em;
+    font-size: 4.5em;
 }
 
 h2{
@@ -133,7 +138,7 @@ a:hover{
 
 
 footer{
-    padding: 100px 0px 20px 0px;
+    padding: 5em 0 1.5em 0;
     text-align: center;
     clear: both;
 }
@@ -145,32 +150,73 @@ footer{
 
 #social a{
     float:left;
-    padding: 20px 5px;
+    padding: 1.5em .4em;
 }
 
 #social img{
-    max-height: 32px;
-    max-height: 32px;
+    max-height: 22m;
+    max-height: 2em;
+}
+
+footer h2{
+    font-size: 1em;
 }
 
 footer h3{
-    font-size: 14px;
+    font-size: .7em;
 }
 
 /*media queries*/
 
-@media screen only and (max-width: 885px) {     #featProjectPhoto, #featProjectInfo { 
+@media screen and (max-width: 885px) {           #featProjectPhoto{ 
         width: 100%;
         float: left;
+        padding-bottom: 2%;
+    }
+    
+    #featProjectInfo { 
+        width: 100%;
+        float: left;
+        padding: 0;
+        padding-bottom: 8%;
+    }
+    
+    .projectphoto{
+        padding-bottom: 2%;
     }
     
     .columnone, .columntwo { 
         width: 100%;
         float: left;
-    }  
+        margin-bottom: 8%;
+    } 
+    
+    h1 {
+        font-size: 3em;
+    } 
 }
 
-@media screen only and (max-width: 700px) {     header {
+@media screen and (max-width: 700px) {               #navicon {
+        display: block;
+        float: right;
+        width: 2em;
+        margin: 2%
+    } 
+    
+    #navmenu a{
+        display: none;
+    }
+    
+    h1 {
+        font-size: 2em;
+    } 
+}
+
+@media screen and (max-width: 465px) {           header {
         background: red;
+    } 
+    
+    h1 {
+        font-size: 1.5em;
     } 
 }
